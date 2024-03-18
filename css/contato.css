@@ -1,0 +1,27 @@
+.contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+.contato h1 {
+  margin-bottom: 40px;
+}
+.contato li {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.contato li:nth-child(3) {
+  margin-bottom: 40px;
+}
+.contato-imagem img {
+  border: 2px solid var(--verde-1);
+  margin-bottom: 4px;
+}
+@media (max-width: 900px) {
+  .contato {
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+  }
+}

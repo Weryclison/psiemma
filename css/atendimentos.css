@@ -1,0 +1,31 @@
+.atendimentos {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.atendimentos-titulo {
+  text-align: center;
+}
+.atendimentos-titulo h1 {
+  margin-bottom: 20px;
+}
+.atendimentos-titulo p {
+  margin-bottom: 60px;
+}
+.atendimentos-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: center;
+}
+.caixa-atendimento {
+  border-left: 2px solid var(--verde-1);
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .atendimentos-flex {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 40px;
+  }
+}

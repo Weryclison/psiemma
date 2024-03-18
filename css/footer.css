@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--escuro);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.direitos {
+  text-align: center;
+}
+.redes {
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 900px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .direitos {
+    grid-column: 1/-1;
+    order: 3;
+  }
+  .redes {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,40 @@
+.formacao {
+  margin-bottom: 100px;
+}
+.formacao h1 {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.formacao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.caixa-formacao {
+  padding: 20px;
+  border: 2px solid var(--verde-1);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.caixa-formacao img {
+  margin-bottom: 20px;
+}
+.caixa-formacao h2 {
+  margin-bottom: 12px;
+}
+@media (max-width: 1200px) {
+  .formacao-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 900px) {
+  .formacao {
+    margin-bottom: 60px;
+  }
+}
+/* @media (max-width: 400px) {
+  .caixa-formacao:nth-child(1) {
+    max-width: min-content;
+  }
+} */

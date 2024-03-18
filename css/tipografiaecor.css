@@ -1,0 +1,60 @@
+.font-1-a {
+  font-family: "Cormorant";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 100%;
+}
+.font-2-a {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 100%;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.09em;
+}
+.font-2-b {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 180%;
+}
+/* @media (max-width: 900px) {
+  .font-1-a {
+    font-size: 1.5rem;
+  }
+} */
+:root {
+  --verde: #304830;
+  --verde-1: #3d543d;
+  --branco: #f0f1f2;
+  --branco-1: #f7f7f7;
+  --cinza: #788296;
+  --cinza-1: #929aab;
+  --escuro: #262b33;
+  --escuro-1: #393e46;
+}
+
+.verde {
+  color: var(--verde);
+}
+.verde-1 {
+  color: var(--verde-1);
+}
+.branco {
+  color: var(--branco);
+}
+.branco-1 {
+  color: var(--branco-1);
+}
+.cinza {
+  color: var(--cinza);
+}
+.cinza-1 {
+  color: var(--cinza-1);
+}
+.escuro {
+  color: var(--escuro);
+}
+.escuro-1 {
+  color: var(--escuro-1);
+}

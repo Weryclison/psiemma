@@ -1,0 +1,21 @@
+.quote {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.caixa-quote {
+  border-bottom: 2px solid var(--verde-1);
+}
+.quote h1 {
+  margin-bottom: 40px;
+}
+.quote .botao {
+  margin-bottom: 100px;
+}
+@media (max-width: 900px) {
+  .quote .botao {
+    margin-bottom: 60px;
+  }
+  .quote {
+    margin-bottom: 60px;
+  }
+}
